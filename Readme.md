@@ -1,6 +1,6 @@
 # Benchmarking IBM Analog Hardware KIT performance for different algorithms
 
-Goal/Objective - The goal is to implement and benchmark standard deep
+**Goal/Objective** - The goal is to implement and benchmark standard deep
 Learning algorithms and do performance profiling with different setting
 such as Single/multi/distributed training, and different tiling
 configuration using the IBM AIHWKIT.
@@ -35,6 +35,9 @@ The library is compatible with Python Version 3.7
 ```
 # To setup the library you need to have anaconda installed.
 module load anaconda3/<VERSION_NUMBER>
+#Load the cuda module
+module load cuda/11.3.1
+
 #We have set up a singularity environment
 singularity exec --overlay /home/<USER>/<YOUR SINGULARITY CONTAINER NAME> /scratch/work/public/singularity/cuda11.1.1-cudnn8-devel-ubuntu20.04.sif /bin/bash
 #Now we are inside the singularity container
