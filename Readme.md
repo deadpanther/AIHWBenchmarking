@@ -4,7 +4,10 @@
 
 In traditional hardware architecture, computation and memory are siloed in different locations. Information is moved back and forth between computation and memory units every time an operation is performed, creating a limitation called the von Neumann bottleneck.
 
+
+
 Analog AI delivers radical performance improvements by combining compute and memory in a single device, eliminating the von Neumann bottleneck. By leveraging the physical properties of memory devices, computation happens at the same place where the data is stored. Such in-memory computing hardware increases the speed and energy-efficiency needed for next generation AI workloads.
+
 
 ## What is an In-Memory computing chip?
 
@@ -23,7 +26,7 @@ IBM Research have come up with a library which can be used to simulate in-memory
 
 The goal is to implement and benchmark standard Deep Learning algorithms and do performance profiling with different setting such as Single or Multi in a traditional training and distributed training, and using different configurations for the Analog memory devices using the IBM AIHWKIT. We try to benchmark the performances of the models using a single node and multiple nodes as well. We also try to benchmark the performance of the models using different configurations of the Analog memory devices. This enables us to compare the performance of the models using different configurations of the Analog memory devices. We try to write consistent code with a high level of abstraction and modularity to make it easy to use as well as to make it easy to extend.
 
-## What ere the challenges faced while using the library and how can we overcame them?
+## What are the challenges faced while using the library and how we overcame them?
 Current repo has a certain implementation that shows the result with simple Le-Net5 architecture, however, the model used is not standard hence difficult to benchmark its performance and the speed-up the toolkit provides. Also, there’s no support for distributed training setting.
 It is a simulation of the analog devices and tries to mimick the performances on real-world analog devices and hence it is not that reliable right now.
 
