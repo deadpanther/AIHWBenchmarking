@@ -4,7 +4,7 @@
 
 In traditional hardware architecture, computation and memory are siloed in different locations. Information is moved back and forth between computation and memory units every time an operation is performed, creating a limitation called the von Neumann bottleneck.
 
-
+![alt text](https://github.com/deadpanther/AIHWBenchmarking/blob/main/images/in%20memory.png?raw=true)
 
 Analog AI delivers radical performance improvements by combining compute and memory in a single device, eliminating the von Neumann bottleneck. By leveraging the physical properties of memory devices, computation happens at the same place where the data is stored. Such in-memory computing hardware increases the speed and energy-efficiency needed for next generation AI workloads.
 
