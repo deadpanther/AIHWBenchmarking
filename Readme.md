@@ -104,6 +104,15 @@ pip install -v aihwkit --install-option="-DUSE_CUDA=ON”
 ```
 Create a virtual environment to install project dependencies.
 
+To compile the code:
+
+We have to change the IP Address of the machine in the file.
+```
+os.environ['MASTER_ADDR'] = '<YOUR DEVICE IP ADDRESS>'
+# Then run
+python gitddp_lenet_analog.py
+```
+
 ## Time
 Analog:
 1 GPU: 24 mins
