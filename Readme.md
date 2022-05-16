@@ -113,6 +113,15 @@ PyTorch:
 1 GPU: 23 mins
 2 GPU: 29.9 mins
 
+## Results
+![alt text](https://github.com/deadpanther/AIHWBenchmarking/blob/main/images/1.png?raw=true)
+![alt text](https://github.com/deadpanther/AIHWBenchmarking/blob/main/images/2.png?raw=true)
+![alt text](https://github.com/deadpanther/AIHWBenchmarking/blob/main/images/3.png?raw=true)
+![alt text](https://github.com/deadpanther/AIHWBenchmarking/blob/main/images/4.png?raw=true)
+
+
+
+
 ## Usage
 The required scripts to run the models in normal mode with 1 GPU and also with multiple nodes and multiple GPUs is provided in the scripts section. 
 
